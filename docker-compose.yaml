@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  backend:
+    build: https://github.com/paveltretyakovru/conferencer-backend.git
+  app:
+    build: https://github.com/paveltretyakovru/conferencer-app.git
